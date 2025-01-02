@@ -1,4 +1,4 @@
-# 修改默认Shell
+# chsh -s /bin/bash修改默认Shell
 
 在类 Unix 系统中，`bash` 和 `sh` 是两种不同的 shell，它们虽然在许多方面相似，但也存在一些区别。通常，`sh` 是系统默认的标准 shell，而 `bash` 是一个功能更强大的 shell，常常用于开发和交互式使用。
 
@@ -12,7 +12,6 @@
 
 ```bash
 echo $SHELL
-
 ```
 
 如果输出是 `/bin/sh` 或类似内容，那么当前的默认 shell 是 `sh`。
@@ -30,7 +29,6 @@ echo $SHELL
     
     ```bash
     which bash
-    
     ```
     
 2. 更改默认 shell：
@@ -38,7 +36,6 @@ echo $SHELL
     
     ```bash
     chsh -s /bin/bash
-    
     ```
     
     - 如果 `bash` 的路径不同，请根据你的实际情况修改路径。
@@ -53,7 +50,6 @@ echo $SHELL
     
     ```bash
     sudo nano /etc/passwd
-    
     ```
     
 2. 找到你的用户行，通常形如：

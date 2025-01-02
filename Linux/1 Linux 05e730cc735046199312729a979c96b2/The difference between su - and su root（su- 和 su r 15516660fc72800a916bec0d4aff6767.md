@@ -1,4 +1,4 @@
-# The difference between su - and su root
+# The difference between su - and su root（su- 和 su root区别）
 
 在Linux系统中，`su -` 和 `su root` 都是切换到 `root` 用户的命令，但它们有一些关键区别。
 
